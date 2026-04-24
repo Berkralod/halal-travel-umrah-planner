@@ -7,7 +7,7 @@ Halal hotel search, prayer times, Umrah guide, Quran reference, dua library, hal
 
 ## Overview
 
-The Halal Travel & Umrah Planner API is a comprehensive solution designed for Muslim travelers, pilgrims, and businesses seeking to serve the global Muslim community. This powerful API combines 10 specialized endpoints that address the unique needs of Islamic travel planning, offering seamless integration of halal lifestyle services into any application or platform.
+The Halal Travel & Umrah Planner API is a comprehensive solution designed for developers building applications that serve Muslim travelers, pilgrims, and expat communities worldwide. This powerful API combines 10 specialized endpoints that address the unique needs of Islamic travelers, from locating halal-certified accommodations to accessing real-time prayer times and comprehensive Umrah guidance.
 
 ## Quick Start
 
@@ -20,14 +20,14 @@ curl -X POST https://halal-travel-umrah-planner.p.rapidapi.com/ \
 
 ## FAQ
 
-### What are the 10 endpoints included in this API?
-The API includes endpoints for: prayer times lookup, halal hotel search, Umrah pilgrimage guide, Quran reference and verses, dua library access, halal food checker with barcode scanning, Islamic finance calculators, Muslim city scores, user preferences management, and travel itinerary planning. Each endpoint is optimized for performance and reliability.
+### What are the main endpoints included in this API?
+The Halal Travel & Umrah Planner API includes 10 endpoints covering: halal hotel search, prayer time calculations, Umrah pilgrimage guides, Quran references, dua library access, halal food checker with barcode scanning, Islamic finance information, Muslim city scores, traveler authentication, and booking management. Each endpoint is optimized for mobile and web applications.
 
-### How accurate are the prayer times and halal food checker?
-Prayer times are calculated using authentic Islamic astronomical methods and updated regularly with multiple data sources for verification. The halal food checker uses verified barcode databases and community-sourced certifications. All data is cross-referenced with Islamic certification bodies to ensure accuracy and Sharia compliance.
+### How does the halal food checker with barcode scanning work?
+The food checker endpoint allows users to scan product barcodes or search by product name to verify halal certification status. The API uses AI/ML algorithms to analyze ingredient databases, supplier certifications, and production processes against Islamic dietary laws. Results include certification status, ingredient breakdowns, and alternative halal product recommendations.
 
-### Can I integrate this API into my existing travel booking platform?
-Yes, the API is designed for easy integration with RESTful architecture and comprehensive documentation. It works seamlessly with existing travel platforms, hotel booking systems, e-commerce sites, and mobile applications. Developers can implement individual endpoints or use the complete suite based on their requirements.
+### Can I use this API for Umrah and Hajj planning?
+Yes, the Umrah guide endpoint provides comprehensive pilgrimage information including ritual sequences, sacred site locations, prayer guidelines, accommodation proximity to holy sites, and essential travel logistics. While focused on Umrah, the infrastructure supports Hajj-related queries. The API integrates prayer times and nearby halal services to enhance the pilgrimage experience.
 
 ## Get Started
 
